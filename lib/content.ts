@@ -5,10 +5,10 @@ import type { HandbookSection, Level, PeopleGroup } from "@/lib/types";
 
 // ----- Study materials: one Google Drive folder per level -----
 export const levels: Level[] = [
-  { id: "100", label: "100 Level", driveUrl: "https://drive.google.com/drive/folders/REPLACE_100", blurb: "Lecture notes, PDFs and resources for 100 level courses." },
-  { id: "200", label: "200 Level", driveUrl: "https://drive.google.com/drive/folders/REPLACE_200", blurb: "Lecture notes, PDFs and resources for 200 level courses." },
-  { id: "300", label: "300 Level", driveUrl: "https://drive.google.com/drive/folders/REPLACE_300", blurb: "Lecture notes, PDFs and resources for 300 level courses." },
-  { id: "400", label: "400 Level", driveUrl: "https://drive.google.com/drive/folders/REPLACE_400", blurb: "Lecture notes, PDFs and resources for 400 level courses." },
+  { id: "100", label: "100 Level", driveUrl: "https://drive.google.com/drive/folders/154Nwr_irg3fxNoefg0oz1Ze4FOcHcLLp", blurb: "Lecture notes, PDFs and resources for 100 level courses." },
+  { id: "200", label: "200 Level", driveUrl: "https://drive.google.com/drive/folders/1DskXNBlNBH6TGlXiNGzFReZZZSnkDp37", blurb: "Lecture notes, PDFs and resources for 200 level courses." },
+  { id: "300", label: "300 Level", driveUrl: "https://drive.google.com/drive/folders/1u3szPHgjqFZzpyvaizZ1-nSk2bRxKEpp", blurb: "Lecture notes, PDFs and resources for 300 level courses." },
+  { id: "400", label: "400 Level", driveUrl: "https://drive.google.com/drive/folders/1ZqNVqPKsr5lW6QzajHnUgVy3c-6YvmvP", blurb: "Lecture notes, PDFs and resources for 400 level courses." },
 ];
 
 // ----- People page -----
@@ -85,7 +85,7 @@ export const peopleGroups: PeopleGroup[] = [
 ];
 
 // ----- Handbook -----
-export const handbookPdfUrl = "https://drive.google.com/file/d/REPLACE_HANDBOOK";
+export const handbookPdfUrl = "https://drive.google.com/file/d/1RFd-HWKmV4YqN2muxpW-15tWNpbAUyDG/view?usp=drivesdk";
 
 export const handbookSections: HandbookSection[] = [
   { title: "Welcome to the Department", items: ["Replace this with the department’s welcome message.", "Add a short history or mission statement here."] },
