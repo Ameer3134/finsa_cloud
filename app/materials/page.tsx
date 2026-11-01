@@ -10,7 +10,7 @@ export default async function MaterialsPage() {
   await requireUser("/materials"); // not logged in? go to login
   return (
     <>
-      <PageHeader title="Study Materials" subtitle="Select your level to open the resources folder on Google Drive." />
+      <PageHeader title="Study" span="Materials" subtitle="Select your level to open the resources folder on Google Drive." />
       <MaterialsTabs levels={levels} />
     </>
   );
