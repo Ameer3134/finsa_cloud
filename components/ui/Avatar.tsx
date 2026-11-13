@@ -39,7 +39,7 @@ export default function Avatar({
   if (photo) {
     return (
       <div className={`relative ${box}`}>
-        <Image src={photo} alt={name} fill sizes="96px" className="object-cover " />
+        <Image src={photo} alt={name} fill sizes="160px" className="object-cover rounded-full border-2 border-brand-900 w-40 h-40" />
       </div>
     );
     

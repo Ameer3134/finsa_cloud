@@ -9,7 +9,7 @@ export default function PageHeader({ title,span, subtitle }: { title: string; sp
           <span className="text-accent-500">{span}</span>
         </h1>
         {/* <div className="mt-3 h-1 w-12 rounded-full bg-accent-500" /> */}
-        {subtitle && <p className="mt-4 max-w-2xl text-brand-100">{subtitle}</p>}
+        {subtitle && <p className="mt-4 max-w-2xl text-accent-500">{subtitle}</p>}
       </Container>
     </section>
   );

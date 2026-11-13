@@ -14,7 +14,7 @@ export const levels: Level[] = [
 // ----- People page -----
 // To add a photo: put the file in public/people and add  photo: "/people/president.jpg"
 // Phone numbers are optional. Use the international format with no + or spaces.
-export const leader = "Full Name";
+export const leader = "Face Study";
 
 export const peopleGroups: PeopleGroup[] = [
   {
@@ -28,11 +28,13 @@ export const peopleGroups: PeopleGroup[] = [
 
       { name: "Adepoju Abdul-Malik Moni", role: "General Secretary", },
 
+       { name: "Adedoyin Daniel Oluwole", role: "Assistant General Secretary", photo: "/people/exec-asstgen.jpg", },
+
       { name: "Adedokun Jamiu Olasunkanmi", role: "Financial Secretary", photo: "/people/exec-finsec.jpg", },
 
       { name: "Okunola Aminat Adunni", role: "Welfare Director", photo: "/people/exec-welfare.jpg", },
 
-      { name: "Owodunni Quadri Olamildkan", role: "Public Relations Officer", photo: "/people/exec-pro.jpg", },
+      { name: "Owodunni Quadri Olamilekan", role: "Public Relations Officer", photo: "/people/exec-pro.jpg", },
 
       { name: "Jamiu Mutmainnah Morenikeji", role: "Social Director", photo: "/people/exec-social.jpg", },
       
@@ -44,11 +46,22 @@ export const peopleGroups: PeopleGroup[] = [
   {
     id: "src",
     label: "SRC",
-    blurb: "Your student representatives on the council.",
+    blurb: "Student Representatives.",
     members: [
-      { name: "Full Name", role: "SRC Member", photo: "/people/src-fakunle.jpg", },
-      { name: "Full Name", role: "SRC Member" },
-      { name: "Full Name", role: "SRC Member" },
+      { name: "Ajayi Elizabeth", role: "Speaker", photo: "/people/src-fakunle.jpg", },
+
+      { name: "Oyunkunle David", role: "Clerk", photo: "/people/src-clerk.jpg", },
+
+      { name: "Quadri Ameerah", role: "Student Representative", photo: "", },
+
+      { name: "Ogunleye Abdul-Malik", role: "Student Representative", photo: "", },
+
+      { name: "Imran Ademola", role: "Student Representative", photo: "", }
+
+
+
+
+
     ],
   },
   {
