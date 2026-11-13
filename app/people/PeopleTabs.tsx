@@ -20,17 +20,17 @@ export default function PeopleTabs({ groups }: { groups: PeopleGroup[] }) {
           {group.members.map((p, i) => (
             // Every card is exactly h-64 and every part inside has a fixed height,
             // so cards stay the same size whatever you add or leave out.
-            <li key={`${p.role}-${i}`} className="flex h-64 flex-col items-center rounded-2xl border border-brand-100 bg-white p-4 text-center">
+            <li key={`${p.role}-${i}`} className="flex h-64 flex-col items-center rounded-2xl border border-brand-900 bg-white p-4 text-center">
               <Avatar name={p.name} photo={p.photo} seed={`${p.name}-${p.role}-${i}`} />
-              <h3 title={p.name} className="mt-3 line-clamp-2 h-12 w-full font-display text-base font-semibold leading-6 text-brand-900">
+              <h3 title={p.name} className="mt-3 line-clamp-2 h-12 w-full font-display text-xs sm:text-sm  font-semibold leading-4 sm:leading-6 text-brand-900">
                 {p.name}
               </h3>
-              <p title={p.role} className="line-clamp-2 h-10 w-full text-sm leading-5 text-brand-500">
+              <p title={p.role} className="line-clamp-2 h-10 w-full text-[10px] sm:text-sm leading-5 text-brand-500">
                 {p.role}
               </p>
-              <p className="mt-auto h-5 text-sm leading-5">
+              <p className="mt-auto h-5 text-[8px] sm:text-xs leading-5">
                 {p.phone && (
-                  <a href={`tel:+${p.phone}`} className="text-slate-600 underline">
+                  <a href={`tel:+${p.phone}`} className="text-slate-600">
                     +{p.phone}
                   </a>
                 )}

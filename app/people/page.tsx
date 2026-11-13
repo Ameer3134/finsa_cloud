@@ -10,7 +10,9 @@ export default async function PeoplePage() {
   await requireUser("/people");
   return (
     <>
-      <PageHeader title="The Ascendants Administration" subtitle={`Led by ${leader}.`} />
+      <PageHeader title="The Ascendants " span="Administration"
+      
+      subtitle={`Led by ${leader}.`} />
       <PeopleTabs groups={peopleGroups} />
     </>
   );
