@@ -121,6 +121,8 @@ export const peopleGroups: PeopleGroup[] = [
       { name: "Dr. kayode David Kolawole", role: "" },
       { name: "Mr. Wasiu Oluwatoyin Ibrahim", role: "" },
       { name: "Mr. Nurudeeen Adeshola Haliru", role: "" },
+      { name: "Mr. Nurudeeen Adeshola Haliru", role: "" },
+
 
      
 
