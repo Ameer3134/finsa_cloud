@@ -48,15 +48,25 @@ export const peopleGroups: PeopleGroup[] = [
     label: "SRC",
     blurb: "Student Representatives.",
     members: [
-      { name: "Ajayi Elizabeth", role: "Speaker", photo: "/people/src-fakunle.jpg", },
+
+      { name: "Ajayi Elizabeth", role: "Speaker", photo: "/people/src-speaker.jpg", },
 
       { name: "Oyunkunle David", role: "Clerk", photo: "/people/src-clerk.jpg", },
 
-      { name: "Quadri Ameerah", role: "Student Representative", photo: "", },
+      { name: "Quadri Ameerah", role: "Student Representative", photo: "/people/src-quadri.jpg", },
 
-      { name: "Ogunleye Abdul-Malik", role: "Student Representative", photo: "", },
+      { name: "Ogunleye Abdul-Malik", role: "Student Representative", photo: "/people/src-student.jpg", },
 
-      { name: "Imran Ademola", role: "Student Representative", photo: "", }
+      { name: "Imran Ademola", role: "Student Representative", photo: "/people/src-imran.jpg", },
+
+      { name: "Oguntimileyin Latifat Jadesola", role: "Student Representative", photo: "/people/src-0guntimeyin.jpg", },
+
+      { name: "Balogun Ganiyah Adebisi", role: "Student Representative", photo: "/people/src-balogun.jpg", },
+
+      { name: "Fakunle Ayomide", role: "Student Representative", photo: "/people/src-fakunle.jpg", }
+
+
+
 
 
 
@@ -69,19 +79,31 @@ export const peopleGroups: PeopleGroup[] = [
     label: "Tutors",
     blurb: "Students who run tutorials and help with hard courses.",
     members: [
-      { name: "Full Name", role: "Tutor, 100 Level" },
-      { name: "Full Name", role: "Tutor, 200 Level" },
-      { name: "Full Name", role: "Tutor, 300 Level" },
-    ],
+      { name: "Abdulwahab O. Robiah", role: "Head of Academics, 300 Level", photo: "/people/tutor-robiah.jpg", },
+      { name: "Fakunle Ayomide Paul", role: "Tutor, 200 Level", photo: "/people/tutor-fakunle.jpg", },
+      { name: "Emmanuel Adedokun", role: "Tutor, 300 Level", photo: "/people/tutor-adedokun.jpg", },
+
+      { name: "Bello Kabirat O.", role: "Tutor, 300 Level", photo: "/people/tutor-bello.jpg", },
+      { name: "Alli Aishat", role: "Tutor, 300 Level", photo: "/people/tutor-alli.jpg", },
+      { name: "Rofiat Abidemi", role: "Tutor", photo: "/people/tutor-rofiat.jpg", },
+      { name: "David Omobolaji Sami", role: "Tutor, 300 Level", photo: "/people/tutor-david.jpg", },
+      { name: "Popoola Abduljawad", role: "Tutor", photo: "/people/tutor-popoola.jpg", },
+    ]
   },
   {
     id: "editorial",
     label: "Editorial Board",
     blurb: "The team behind the association’s publications.",
     members: [
-      { name: "Full Name", role: "Editor-in-Chief" },
-      { name: "Full Name", role: "Associate Editor" },
-      { name: "Full Name", role: "Graphics Editor" },
+      { name: "Samad Kazeem", role: "Editor-in-Chief", photo: "/people/editorial-samad.jpg", },
+      { name: "Jamiu Olasunkanmi Adedokun", role: "Member", photo: "/people/editorial-jamiu.jpg", },
+      { name: "Emmanuel Kanyinsola Suzan", role: "Member", photo: "/people/editorial-emmanuel.jpg",  },
+      { name: "Owodunni Quadri Olamilekan", role: "Member" },
+      { name: "Abdul-Rasak Zainab Omolabake", role: "Member" },
+      { name: "AbdulKareem Abdulgafar", role: "Member" },
+      { name: "Abdulsalam Abdulazeem", role: "Member" },
+      { name: "Imran Abimbola", role: "Member" },
+
     ],
   },
   {
@@ -89,10 +111,19 @@ export const peopleGroups: PeopleGroup[] = [
     label: "Lecturers",
     blurb: "Academic staff of the Department of Finance.",
     members: [
-      { name: "Prof. Full Name", role: "Head of Department" },
-      { name: "Dr. Full Name", role: "Lecturer" },
-      { name: "Dr. Full Name", role: "Lecturer" },
-      { name: "Mr. Full Name", role: "Assistant Lecturer" },
+      { name: "Dr. Bilqees Ayoola Abdulmumin", role: "Head of Department" },
+       { name: "Prof.Muftau Adeniyi Ijaiya ", role: "" },
+      { name: "Prof. Ibrahim Bello Abdullahi", role: "" },
+      { name: "Prof. Micheal Adebayo Ajayi", role: "" },
+      { name: "Prof. Rihanat Idowu Abdulkadir", role: "" },
+      { name: "Dr. Oyebola Fatima Etudaiye-Muhtar", role: "" },
+      { name: "Dr. Abdulrazaq Taiye Jimoh", role: "" },
+      { name: "Dr. kayode David Kolawole", role: "" },
+      { name: "Mr. Wasiu Oluwatoyin Ibrahim", role: "" },
+      { name: "Mr. Nurudeeen Adeshola Haliru", role: "" },
+
+     
+
     ],
   },
 ];
