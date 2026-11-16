@@ -95,11 +95,11 @@ export const peopleGroups: PeopleGroup[] = [
     label: "Editorial Board",
     blurb: "The team behind the association’s publications.",
     members: [
-      { name: "Samad Kazeem", role: "Editor-in-Chief", photo: "/people/editorial-samad.jpg", },
+      { name: "Samad Kazeem", role: "Editor-in-Chief", photo: "/people/ed-samad.jpg", },
       { name: "Jamiu Olasunkanmi Adedokun", role: "Member", photo: "/people/editorial-jamiu.jpg", },
       { name: "Emmanuel Kanyinsola Suzan", role: "Member", photo: "/people/editorial-emmanuel.jpg",  },
       { name: "Owodunni Quadri Olamilekan", role: "Member" },
-      { name: "Abdul-Rasak Zainab Omolabake", role: "Member" },
+      { name: "Abdul-Rasak Zainab Omolabake", role: "Member", photo:"people/ed-zainab" },
       { name: "AbdulKareem Abdulgafar", role: "Member" },
       { name: "Abdulsalam Abdulazeem", role: "Member" },
       { name: "Imran Abimbola", role: "Member" },
@@ -121,6 +121,8 @@ export const peopleGroups: PeopleGroup[] = [
       { name: "Dr. kayode David Kolawole", role: "" },
       { name: "Mr. Wasiu Oluwatoyin Ibrahim", role: "" },
       { name: "Mr. Nurudeeen Adeshola Haliru", role: "" },
+      { name: "Mr. Nurudeeen Adeshola Haliru", role: "" },
+
 
      
 
