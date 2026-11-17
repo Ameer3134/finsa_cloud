@@ -7,7 +7,7 @@ export const site = {
   description: "Study materials, executives, lecturers, handbook and tools for Finance students at the University of Ilorin.",
   email: "finsaunilorin67@gmail.com",
   address: "Olushola Adekanola, Department of Finance, Faculty of Management Sciences, University of Ilorin.",
-  inspiredBy: "This website was inspired by The Ascendant Administration executives council 26/27",
+  inspiredBy: "Developed under the leadership of The Ascendant Administration, FINSA 2026/2027. Built to strengthen academic support, institutional communication and continuity within the Finance Students' Association, University of Ilorin.",
 };
 
 // Menu shown to logged-in users.
